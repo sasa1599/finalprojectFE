@@ -1,0 +1,79 @@
+
+C:\justineganteng\pemograman_new\projek\nextjs\client next\grocery\Finpro_Online-Grocery-Web-App_Frontend\src\components\profile\FormAddressAdd.tsx
+  64:58  error  'setFieldValue' is missing in props validation  react/prop-types
+  79:58  error  'onsubmit' is missing in props validation       react/prop-types
+
+C:\justineganteng\pemograman_new\projek\nextjs\client next\grocery\Finpro_Online-Grocery-Web-App_Frontend\src\components\profile\FormAddressEdit.tsx
+   36:58   error  'setFieldValue' is missing in props validation          react/prop-types
+   36:73   error  'setMarkerPosition' is missing in props validation      react/prop-types
+   36:92   error  'markerPosition' is missing in props validation         react/prop-types
+   81:60   error  'formData' is missing in props validation               react/prop-types
+   81:70   error  'onSubmit' is missing in props validation               react/prop-types
+   81:80   error  'setPrimaryAddress' is missing in props validation      react/prop-types
+   83:66   error  'formData.latitude' is missing in props validation      react/prop-types
+   83:106  error  'formData.longitude' is missing in props validation     react/prop-types
+  102:29   error  'formData.address_id' is missing in props validation    react/prop-types
+  104:32   error  'formData.address_name' is missing in props validation  react/prop-types
+  105:27   error  'formData.address' is missing in props validation       react/prop-types
+  106:31   error  'formData.subdistrict' is missing in props validation   react/prop-types
+  107:24   error  'formData.city' is missing in props validation          react/prop-types
+  108:27   error  'formData.city_id' is missing in props validation       react/prop-types
+  109:28   error  'formData.province' is missing in props validation      react/prop-types
+  110:31   error  'formData.province_id' is missing in props validation   react/prop-types
+  111:28   error  'formData.postcode' is missing in props validation      react/prop-types
+  112:35   error  'formData.latitude' is missing in props validation      react/prop-types
+  113:36   error  'formData.longitude' is missing in props validation     react/prop-types
+  115:35   error  'formData.latitude' is missing in props validation      react/prop-types
+  115:75   error  'formData.longitude' is missing in props validation     react/prop-types
+
+C:\justineganteng\pemograman_new\projek\nextjs\client next\grocery\Finpro_Online-Grocery-Web-App_Frontend\src\components\profile\FormSetPassword.tsx
+   4:13  error  'Yup' is defined but never used            @typescript-eslint/no-unused-vars
+  16:60  error  'onsubmit' is missing in props validation  react/prop-types
+  25:23  error  'setFieldValue' is defined but never used  @typescript-eslint/no-unused-vars
+  25:38  error  'values' is defined but never used         @typescript-eslint/no-unused-vars
+
+C:\justineganteng\pemograman_new\projek\nextjs\client next\grocery\Finpro_Online-Grocery-Web-App_Frontend\src\components\profile\Section1.tsx
+  14:5  error  'getDataUser' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\justineganteng\pemograman_new\projek\nextjs\client next\grocery\Finpro_Online-Grocery-Web-App_Frontend\src\components\profile\Section2.tsx
+  8:13  error  'load' is assigned a value but never used            @typescript-eslint/no-unused-vars
+  8:32  error  'setAddressData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\justineganteng\pemograman_new\projek\nextjs\client next\grocery\Finpro_Online-Grocery-Web-App_Frontend\src\components\profile\Section3.tsx
+  1:17  error  'useEffect' is defined but never used      @typescript-eslint/no-unused-vars
+  5:10  error  'Orders' is defined but never used         @typescript-eslint/no-unused-vars
+  8:13  error  'load' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\justineganteng\pemograman_new\projek\nextjs\client next\grocery\Finpro_Online-Grocery-Web-App_Frontend\src\components\register\RegisterCustomer.tsx
+  5:21  error  'Eye' is defined but never used     @typescript-eslint/no-unused-vars
+  5:26  error  'EyeOff' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\justineganteng\pemograman_new\projek\nextjs\client next\grocery\Finpro_Online-Grocery-Web-App_Frontend\src\components\register\RegisterStoreAdmin.tsx
+  5:21  error  'Eye' is defined but never used     @typescript-eslint/no-unused-vars
+  5:26  error  'EyeOff' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\justineganteng\pemograman_new\projek\nextjs\client next\grocery\Finpro_Online-Grocery-Web-App_Frontend\src\components\register\ResetPassword.tsx
+  5:21  error  'Eye' is defined but never used     @typescript-eslint/no-unused-vars
+  5:26  error  'EyeOff' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\justineganteng\pemograman_new\projek\nextjs\client next\grocery\Finpro_Online-Grocery-Web-App_Frontend\src\components\sidebarSuperAdmin.tsx
+  10:3  error  'X' is defined but never used              @typescript-eslint/no-unused-vars
+  28:3  error  'isSidebarOpen' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\justineganteng\pemograman_new\projek\nextjs\client next\grocery\Finpro_Online-Grocery-Web-App_Frontend\src\components\store-management\AddStoreModal.tsx
+  2:10  error  'useStoreForm' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\justineganteng\pemograman_new\projek\nextjs\client next\grocery\Finpro_Online-Grocery-Web-App_Frontend\src\components\store-management\EditStoreForm.tsx
+  57:3  error  'dataStore' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\justineganteng\pemograman_new\projek\nextjs\client next\grocery\Finpro_Online-Grocery-Web-App_Frontend\src\components\store-management\EditStoreModal.tsx
+  3:8  error  'AddStoreForm' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\justineganteng\pemograman_new\projek\nextjs\client next\grocery\Finpro_Online-Grocery-Web-App_Frontend\src\components\store-management\StoreCard.tsx
+  2:10  error  'Pencil' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\justineganteng\pemograman_new\projek\nextjs\client next\grocery\Finpro_Online-Grocery-Web-App_Frontend\src\components\store-management\StoreList.tsx
+  6:10  error  'storeService' is defined but never used  @typescript-eslint/no-unused-vars
+
+✖ 46 problems (46 errors, 0 warnings)
+
