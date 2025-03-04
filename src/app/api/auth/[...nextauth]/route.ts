@@ -4,21 +4,12 @@ import GoogleProvider from "next-auth/providers/google";
 const handler = NextAuth({
   providers: [
     GoogleProvider({
-      clientId: process.env.GOOGLE_CLIENT_ID!,
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
+      clientId: process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID!,
+      clientSecret: process.env.NEXT_PUBLIC_GOOGLE_CLIENT_SECRET!,
     }),
   ],
   secret: process.env.NEXTAUTH_SECRET,
-  // Add these settings for production
-  callbacks: {
-    redirect({ url, baseUrl }) {
-      // Allows relative callback URLs
-      if (url.startsWith("/")) return `${baseUrl}${url}`;
-      // Allows callback URLs on the same origin
-      else if (new URL(url).origin === baseUrl) return url;
-      return baseUrl;
-    },
-  },
 });
 
+// Next.js 14 (App Router) harus menggunakan named exports
 export { handler as GET, handler as POST };
